@@ -3,12 +3,15 @@ import  Link  from 'next/link'
 import {AiOutlineShopping} from 'react-icons/ai'
 import {Cart} from './'
 import {useStateContext} from '../context/StateContext'
+import Head from 'next/head'
 
 const Navbar = () => {
   const {showCart,setShowCart,totalQuantities}=useStateContext()
+  
   return (
+    <>
     <div className='navbar-container'>
-      <p className='logo'>
+      <p className='logo bd'>
         <Link href='/'>R.N. Traders</Link>
        </p>
 
@@ -20,6 +23,7 @@ const Navbar = () => {
     {showCart && <Cart />}
         
     </div>
+    </>
   )
 }
 
