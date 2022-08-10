@@ -1,21 +1,18 @@
 import React from "react";
-import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Scroll from './Scrol'
 const Layout = ({children}) => {
   return (
     <>
       <div className="layout">
-        <Head>
-          <title>My page</title>
-        </Head>
         <header>
           <Navbar />
         </header>
         <main className="main-container">
         {children}
-
         </main>
+        <Scroll showBelow={250}/>
         <footer>
           <Footer/>
         </footer>

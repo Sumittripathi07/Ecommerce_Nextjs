@@ -29,7 +29,7 @@ const Footer = () => {
 
           <div>
             <i className="fa fa-phone"></i>
-            <p>9545916348 , 9503335718</p>
+            <p>9359549170 , 8928216536</p>
           </div>
 
           <div>
