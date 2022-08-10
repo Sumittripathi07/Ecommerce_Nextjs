@@ -13,10 +13,10 @@ const Footer = () => {
       <footer className="footer-distributed foot">
         <div className="footer-left">
           <h3>
-            RN<span>Traders</span>
+            @<span>doorStep</span>
           </h3>
 
-          <p className="footer-company-name">RN Traders &copy; 2015</p>
+          <p className="footer-company-name">At Your Doorstep &copy; 2015</p>
         </div>
 
         <div className="footer-center">

@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
     <div className='navbar-container'>
       <p className='logo bd'>
-        <Link href='/'>R.N. Traders</Link>
+        <Link href='/'>@doorStep</Link>
        </p>
 
        <button type='button' className='cart-icon' onClick={()=>{setShowCart(true)}}>

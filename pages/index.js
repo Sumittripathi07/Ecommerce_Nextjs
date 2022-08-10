@@ -1,11 +1,15 @@
 import React from "react";
 import {Product, HeroBanner, FooterBanner } from "../components";
-
 import { client } from "../lib/client";
+import Head from 'next/head'
 
 const Home = ({products,bannerData}) => {
   return (
     <>
+    <Head>
+        <title>@yourDoorstep</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <HeroBanner heroBanner={bannerData.length && bannerData[0] } />
       <div className="products-heading">
         <h2>Best Selling Products</h2>
